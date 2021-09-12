@@ -8,6 +8,8 @@ using namespace std;
 
 #define MAX_ELEM	1024
 
+//patch test message
+
 int MAX_DATA = 999;
 
 template<typename T>
@@ -17,6 +19,10 @@ struct SqList
 		int length;
 };
 
+void printHello()
+{
+    cout << "Hello" << endl;
+}
 
 // ´òÓ¡ListÔªËØ
 template<typename T>
